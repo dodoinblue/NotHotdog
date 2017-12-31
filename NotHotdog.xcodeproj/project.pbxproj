@@ -12,6 +12,7 @@
 		F43EC5491FF967230099E7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43EC5471FF967230099E7C5 /* Main.storyboard */; };
 		F43EC54B1FF967230099E7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43EC54A1FF967230099E7C5 /* Assets.xcassets */; };
 		F43EC54E1FF967230099E7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43EC54C1FF967230099E7C5 /* LaunchScreen.storyboard */; };
+		F43EC5561FF96C5C0099E7C5 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F43EC5551FF96C5C0099E7C5 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F43EC54A1FF967230099E7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43EC54D1FF967230099E7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F43EC54F1FF967230099E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43EC5551FF96C5C0099E7C5 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F43EC5421FF967230099E7C5 /* NotHotdog */ = {
 			isa = PBXGroup;
 			children = (
+				F43EC5551FF96C5C0099E7C5 /* Inceptionv3.mlmodel */,
 				F43EC5431FF967230099E7C5 /* AppDelegate.swift */,
 				F43EC5451FF967230099E7C5 /* ViewController.swift */,
 				F43EC5471FF967230099E7C5 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43EC5461FF967230099E7C5 /* ViewController.swift in Sources */,
+				F43EC5561FF96C5C0099E7C5 /* Inceptionv3.mlmodel in Sources */,
 				F43EC5441FF967230099E7C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P95HLCS689;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supersuperstar.learnios.NotHotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P95HLCS689;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supersuperstar.learnios.NotHotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
