@@ -1,0 +1,6 @@
+framework module Pods_NotHotdog {
+  umbrella header "Pods-NotHotdog-umbrella.h"
+
+  export *
+  module * { export * }
+}
